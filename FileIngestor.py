@@ -169,11 +169,13 @@ class FileIngestor:
 
     # =========================================================================
     # HELPERS
+    
     # =========================================================================
 
     def _convert_office_to_pdf(self, input_path: Path, out_dir: Path) -> Path:
         expected_pdf = out_dir / input_path.with_suffix(".pdf").name
         if expected_pdf.exists(): return expected_pdf
+        out_dir.mkdir(parents=True, exist_ok=True)
 
         cmd = [self.soffice_cmd, "--headless", "--norestore", "--convert-to", "pdf", "--outdir", str(out_dir), str(input_path)]
         try:
