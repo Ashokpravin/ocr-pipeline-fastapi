@@ -29,6 +29,7 @@ def _get_site_packages():
 
 def _setup():
     """One-time dependency fix. Runs before any pipeline imports."""
+    os.environ.setdefault("PADDLEX_HOME", "/home/katonic/.paddlex")
 
     base_dir = os.path.dirname(os.path.abspath(__file__))
     marker = os.path.join(base_dir, ".deps_ok")
@@ -177,7 +178,6 @@ def _setup():
 # RUN SETUP BEFORE ANY IMPORTS
 # =============================================
 _setup()
-os.environ.setdefault("PADDLEX_HOME", "/home/katonic/.paddlex")
 # =============================================
 # CLEAR LRU CACHES
 # =============================================
