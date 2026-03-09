@@ -50,6 +50,7 @@ from typing import Optional, Dict, Any, Set, List
 from datetime import datetime, timedelta
 from concurrent.futures import ThreadPoolExecutor, Future
 from contextlib import asynccontextmanager
+import urllib.parse
 
 # FastAPI imports
 from fastapi import (
@@ -847,12 +848,18 @@ async def download_markdown(job_id: str, token: str = Depends(verify_token)):
         logger.error(f"[Job {job_id}] Result file missing: {job_info.get('result_path')}")
         raise HTTPException(status_code=404, detail="Result file not found. It may have been cleaned up.")
 
-    filename = f"{job_id}_{job_info['filename']}.md"
+    ascii_filename   = f"{job_id}.md"
+    full_filename    = f"{job_id}_{job_info['filename']}.md"
+    encoded_filename = urllib.parse.quote(full_filename, safe="")
     return FileResponse(
         path=result_path,
-        filename=filename,
         media_type="text/markdown",
-        headers={"Content-Disposition": f'attachment; filename="{filename}"'}
+        headers={
+            "Content-Disposition": (
+                f'attachment; filename="{ascii_filename}"; '
+                f"filename*=UTF-8''{encoded_filename}"
+            )
+        }
     )
 
 
