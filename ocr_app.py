@@ -161,7 +161,7 @@ logger = logging.getLogger(__name__)
 executor: Optional[ThreadPoolExecutor] = None
 job_status: Dict[str, Dict[str, Any]] = {}
 _cleanup_task: Optional[asyncio.Task] = None
-
+RAM_WORKERS: Optional[int] = None
 
 # =============================================================================
 # AUTHENTICATION SETUP
@@ -377,8 +377,7 @@ def detect_root_path() -> str:
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    """Application lifespan: startup and shutdown logic."""
-    global executor, _cleanup_task
+    global executor, _cleanup_task, MAX_WORKERS
 
     # --- STARTUP ---
     logger.info("=" * 60)
@@ -425,6 +424,24 @@ async def lifespan(app: FastAPI):
         raise RuntimeError(f"Cannot write to output directory: {BASE_OUTPUT_DIR}")
 
     # Initialize thread pool
+    # Auto-detect worker count if MAX_WORKERS=0
+    if MAX_WORKERS == 0:
+        global RAM_WORKERS
+        _load_pipeline_modules()
+
+        RAM_WORKERS = int(
+            (float(os.getenv("SYSTEM_RAM_GB", "32")) - float(os.getenv("SYSTEM_RESERVE_GB", "4")))
+            / float(os.getenv("WORKER_RAM_GB", "1.5"))
+        )
+
+        MAX_WORKERS = _get_optimal_worker_count(
+            ram_per_worker_gb=float(os.getenv("WORKER_RAM_GB", "1.5")),
+            system_reserve_gb=float(os.getenv("SYSTEM_RESERVE_GB", "4.0"))
+        )
+
+        logger.info(f"RAM-capacity workers: {RAM_WORKERS}")
+        logger.info(f"Auto-detected worker count (CPU capped): {MAX_WORKERS}")
+
     executor = ThreadPoolExecutor(max_workers=MAX_WORKERS)
     logger.info(f"Thread pool initialized with {MAX_WORKERS} workers")
 
@@ -675,6 +692,7 @@ def health_check():
         "config": {
             "max_upload_size_mb": MAX_UPLOAD_SIZE_MB,
             "max_workers": MAX_WORKERS,
+            "ram_workers": RAM_WORKERS,
             "job_retention_hours": JOB_RETENTION_HOURS
         },
         "stats": {

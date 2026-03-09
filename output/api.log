@@ -1390,3 +1390,335 @@ RuntimeError: Pipeline dependency missing: DLA - numpy.core.multiarray failed to
 2026-02-25 08:42:25,629 - __main__ - INFO - [periodic_job_cleanup:939] Periodic cleanup task cancelled
 2026-02-25 08:42:25,629 - __main__ - INFO - [lifespan:454] Thread pool shut down
 2026-02-25 08:42:25,630 - __main__ - INFO - [lifespan:456] Shutdown complete.
+2026-03-09 07:11:21,787 - __main__ - INFO - [lifespan:384] ============================================================
+2026-03-09 07:11:21,787 - __main__ - INFO - [lifespan:385] CustomOCR Pipeline API v2.5.0 starting...
+2026-03-09 07:11:21,787 - __main__ - INFO - [lifespan:386] ============================================================
+2026-03-09 07:11:21,787 - __main__ - INFO - [lifespan:389] Output Directory   : /home/katonic/workspace/ocr-pipeline-fastapi/output
+2026-03-09 07:11:21,787 - __main__ - INFO - [lifespan:390] Completed Dir      : /home/katonic/workspace/ocr-pipeline-fastapi/output/completed
+2026-03-09 07:11:21,787 - __main__ - INFO - [lifespan:391] Max Upload Size    : 500 MB
+2026-03-09 07:11:21,787 - __main__ - INFO - [lifespan:392] Max Workers        : 0
+2026-03-09 07:11:21,787 - __main__ - INFO - [lifespan:393] Job Retention      : 24 hours
+2026-03-09 07:11:21,787 - __main__ - INFO - [lifespan:394] Allowed Extensions : 23 types
+2026-03-09 07:11:21,787 - __main__ - INFO - [lifespan:397] --- Authentication ---
+2026-03-09 07:11:21,787 - __main__ - INFO - [lifespan:399]   Configured Tokens: 3
+2026-03-09 07:11:21,787 - __main__ - INFO - [lifespan:406]   AUTH_TOKEN_1    : REQUEST_AP****UtVo ✓
+2026-03-09 07:11:21,787 - __main__ - INFO - [lifespan:406]   AUTH_TOKEN_2    : REQUEST_AP****ATE4 ✓
+2026-03-09 07:11:21,787 - __main__ - INFO - [lifespan:406]   AUTH_TOKEN_3    : REQUEST_AP****18gA ✓
+2026-03-09 07:11:21,788 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_4    : (empty)
+2026-03-09 07:11:21,788 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_5    : (empty)
+2026-03-09 07:11:21,788 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_6    : (empty)
+2026-03-09 07:11:21,788 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_7    : (empty)
+2026-03-09 07:11:21,788 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_8    : (empty)
+2026-03-09 07:11:21,788 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_9    : (empty)
+2026-03-09 07:11:21,788 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_10    : (empty)
+2026-03-09 07:11:21,788 - __main__ - INFO - [lifespan:415] --- End Authentication ---
+2026-03-09 07:11:21,788 - __main__ - INFO - [lifespan:422] Output directory: Writable ✓
+2026-03-09 07:12:20,778 - __main__ - INFO - [lifespan:384] ============================================================
+2026-03-09 07:12:20,778 - __main__ - INFO - [lifespan:385] CustomOCR Pipeline API v2.5.0 starting...
+2026-03-09 07:12:20,778 - __main__ - INFO - [lifespan:386] ============================================================
+2026-03-09 07:12:20,778 - __main__ - INFO - [lifespan:389] Output Directory   : /home/katonic/workspace/ocr-pipeline-fastapi/output
+2026-03-09 07:12:20,778 - __main__ - INFO - [lifespan:390] Completed Dir      : /home/katonic/workspace/ocr-pipeline-fastapi/output/completed
+2026-03-09 07:12:20,778 - __main__ - INFO - [lifespan:391] Max Upload Size    : 500 MB
+2026-03-09 07:12:20,778 - __main__ - INFO - [lifespan:392] Max Workers        : 2
+2026-03-09 07:12:20,778 - __main__ - INFO - [lifespan:393] Job Retention      : 24 hours
+2026-03-09 07:12:20,778 - __main__ - INFO - [lifespan:394] Allowed Extensions : 23 types
+2026-03-09 07:12:20,778 - __main__ - INFO - [lifespan:397] --- Authentication ---
+2026-03-09 07:12:20,779 - __main__ - INFO - [lifespan:399]   Configured Tokens: 3
+2026-03-09 07:12:20,779 - __main__ - INFO - [lifespan:406]   AUTH_TOKEN_1    : REQUEST_AP****UtVo ✓
+2026-03-09 07:12:20,779 - __main__ - INFO - [lifespan:406]   AUTH_TOKEN_2    : REQUEST_AP****ATE4 ✓
+2026-03-09 07:12:20,779 - __main__ - INFO - [lifespan:406]   AUTH_TOKEN_3    : REQUEST_AP****18gA ✓
+2026-03-09 07:12:20,779 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_4    : (empty)
+2026-03-09 07:12:20,779 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_5    : (empty)
+2026-03-09 07:12:20,779 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_6    : (empty)
+2026-03-09 07:12:20,779 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_7    : (empty)
+2026-03-09 07:12:20,779 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_8    : (empty)
+2026-03-09 07:12:20,779 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_9    : (empty)
+2026-03-09 07:12:20,779 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_10    : (empty)
+2026-03-09 07:12:20,779 - __main__ - INFO - [lifespan:415] --- End Authentication ---
+2026-03-09 07:12:20,779 - __main__ - INFO - [lifespan:422] Output directory: Writable ✓
+2026-03-09 07:12:20,779 - __main__ - INFO - [lifespan:429] Thread pool initialized with 2 workers
+2026-03-09 07:12:20,779 - __main__ - INFO - [lifespan:437] ============================================================
+2026-03-09 07:12:20,779 - __main__ - INFO - [lifespan:438] API Ready. Accepting requests.
+2026-03-09 07:12:20,779 - __main__ - INFO - [lifespan:439] ============================================================
+2026-03-09 07:12:30,113 - __main__ - INFO - [lifespan:444] CustomOCR Pipeline API shutting down...
+2026-03-09 07:12:30,113 - __main__ - INFO - [periodic_job_cleanup:946] Periodic cleanup task cancelled
+2026-03-09 07:12:30,113 - __main__ - INFO - [lifespan:455] Thread pool shut down
+2026-03-09 07:12:30,113 - __main__ - INFO - [lifespan:457] Shutdown complete.
+2026-03-09 07:15:57,455 - __main__ - INFO - [lifespan:384] ============================================================
+2026-03-09 07:15:57,455 - __main__ - INFO - [lifespan:385] CustomOCR Pipeline API v2.5.0 starting...
+2026-03-09 07:15:57,455 - __main__ - INFO - [lifespan:386] ============================================================
+2026-03-09 07:15:57,455 - __main__ - INFO - [lifespan:389] Output Directory   : /home/katonic/workspace/ocr-pipeline-fastapi/output
+2026-03-09 07:15:57,455 - __main__ - INFO - [lifespan:390] Completed Dir      : /home/katonic/workspace/ocr-pipeline-fastapi/output/completed
+2026-03-09 07:15:57,455 - __main__ - INFO - [lifespan:391] Max Upload Size    : 500 MB
+2026-03-09 07:15:57,455 - __main__ - INFO - [lifespan:392] Max Workers        : 18
+2026-03-09 07:15:57,455 - __main__ - INFO - [lifespan:393] Job Retention      : 24 hours
+2026-03-09 07:15:57,455 - __main__ - INFO - [lifespan:394] Allowed Extensions : 23 types
+2026-03-09 07:15:57,455 - __main__ - INFO - [lifespan:397] --- Authentication ---
+2026-03-09 07:15:57,455 - __main__ - INFO - [lifespan:399]   Configured Tokens: 3
+2026-03-09 07:15:57,455 - __main__ - INFO - [lifespan:406]   AUTH_TOKEN_1    : REQUEST_AP****UtVo ✓
+2026-03-09 07:15:57,455 - __main__ - INFO - [lifespan:406]   AUTH_TOKEN_2    : REQUEST_AP****ATE4 ✓
+2026-03-09 07:15:57,455 - __main__ - INFO - [lifespan:406]   AUTH_TOKEN_3    : REQUEST_AP****18gA ✓
+2026-03-09 07:15:57,456 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_4    : (empty)
+2026-03-09 07:15:57,456 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_5    : (empty)
+2026-03-09 07:15:57,456 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_6    : (empty)
+2026-03-09 07:15:57,456 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_7    : (empty)
+2026-03-09 07:15:57,456 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_8    : (empty)
+2026-03-09 07:15:57,456 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_9    : (empty)
+2026-03-09 07:15:57,456 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_10    : (empty)
+2026-03-09 07:15:57,456 - __main__ - INFO - [lifespan:415] --- End Authentication ---
+2026-03-09 07:15:57,456 - __main__ - INFO - [lifespan:422] Output directory: Writable ✓
+2026-03-09 07:15:57,456 - __main__ - INFO - [lifespan:429] Thread pool initialized with 18 workers
+2026-03-09 07:15:57,456 - __main__ - INFO - [lifespan:437] ============================================================
+2026-03-09 07:15:57,456 - __main__ - INFO - [lifespan:438] API Ready. Accepting requests.
+2026-03-09 07:15:57,456 - __main__ - INFO - [lifespan:439] ============================================================
+2026-03-09 07:16:17,721 - __main__ - INFO - [lifespan:444] CustomOCR Pipeline API shutting down...
+2026-03-09 07:16:17,721 - __main__ - INFO - [periodic_job_cleanup:946] Periodic cleanup task cancelled
+2026-03-09 07:16:17,721 - __main__ - INFO - [lifespan:455] Thread pool shut down
+2026-03-09 07:16:17,721 - __main__ - INFO - [lifespan:457] Shutdown complete.
+2026-03-09 07:24:01,033 - __main__ - INFO - [lifespan:384] ============================================================
+2026-03-09 07:24:01,033 - __main__ - INFO - [lifespan:385] CustomOCR Pipeline API v2.5.0 starting...
+2026-03-09 07:24:01,033 - __main__ - INFO - [lifespan:386] ============================================================
+2026-03-09 07:24:01,033 - __main__ - INFO - [lifespan:389] Output Directory   : /home/katonic/workspace/ocr-pipeline-fastapi/output
+2026-03-09 07:24:01,033 - __main__ - INFO - [lifespan:390] Completed Dir      : /home/katonic/workspace/ocr-pipeline-fastapi/output/completed
+2026-03-09 07:24:01,033 - __main__ - INFO - [lifespan:391] Max Upload Size    : 500 MB
+2026-03-09 07:24:01,033 - __main__ - INFO - [lifespan:392] Max Workers        : 0
+2026-03-09 07:24:01,033 - __main__ - INFO - [lifespan:393] Job Retention      : 24 hours
+2026-03-09 07:24:01,033 - __main__ - INFO - [lifespan:394] Allowed Extensions : 23 types
+2026-03-09 07:24:01,033 - __main__ - INFO - [lifespan:397] --- Authentication ---
+2026-03-09 07:24:01,033 - __main__ - INFO - [lifespan:399]   Configured Tokens: 3
+2026-03-09 07:24:01,033 - __main__ - INFO - [lifespan:406]   AUTH_TOKEN_1    : REQUEST_AP****UtVo ✓
+2026-03-09 07:24:01,034 - __main__ - INFO - [lifespan:406]   AUTH_TOKEN_2    : REQUEST_AP****ATE4 ✓
+2026-03-09 07:24:01,034 - __main__ - INFO - [lifespan:406]   AUTH_TOKEN_3    : REQUEST_AP****18gA ✓
+2026-03-09 07:24:01,034 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_4    : (empty)
+2026-03-09 07:24:01,034 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_5    : (empty)
+2026-03-09 07:24:01,034 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_6    : (empty)
+2026-03-09 07:24:01,034 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_7    : (empty)
+2026-03-09 07:24:01,034 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_8    : (empty)
+2026-03-09 07:24:01,034 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_9    : (empty)
+2026-03-09 07:24:01,034 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_10    : (empty)
+2026-03-09 07:24:01,034 - __main__ - INFO - [lifespan:415] --- End Authentication ---
+2026-03-09 07:24:01,034 - __main__ - INFO - [lifespan:422] Output directory: Writable ✓
+2026-03-09 07:27:51,844 - __main__ - INFO - [lifespan:384] ============================================================
+2026-03-09 07:27:51,844 - __main__ - INFO - [lifespan:385] CustomOCR Pipeline API v2.5.0 starting...
+2026-03-09 07:27:51,845 - __main__ - INFO - [lifespan:386] ============================================================
+2026-03-09 07:27:51,845 - __main__ - INFO - [lifespan:389] Output Directory   : /home/katonic/workspace/ocr-pipeline-fastapi/output
+2026-03-09 07:27:51,845 - __main__ - INFO - [lifespan:390] Completed Dir      : /home/katonic/workspace/ocr-pipeline-fastapi/output/completed
+2026-03-09 07:27:51,845 - __main__ - INFO - [lifespan:391] Max Upload Size    : 500 MB
+2026-03-09 07:27:51,845 - __main__ - INFO - [lifespan:392] Max Workers        : 0
+2026-03-09 07:27:51,845 - __main__ - INFO - [lifespan:393] Job Retention      : 24 hours
+2026-03-09 07:27:51,845 - __main__ - INFO - [lifespan:394] Allowed Extensions : 23 types
+2026-03-09 07:27:51,845 - __main__ - INFO - [lifespan:397] --- Authentication ---
+2026-03-09 07:27:51,845 - __main__ - INFO - [lifespan:399]   Configured Tokens: 3
+2026-03-09 07:27:51,845 - __main__ - INFO - [lifespan:406]   AUTH_TOKEN_1    : REQUEST_AP****UtVo ✓
+2026-03-09 07:27:51,845 - __main__ - INFO - [lifespan:406]   AUTH_TOKEN_2    : REQUEST_AP****ATE4 ✓
+2026-03-09 07:27:51,845 - __main__ - INFO - [lifespan:406]   AUTH_TOKEN_3    : REQUEST_AP****18gA ✓
+2026-03-09 07:27:51,845 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_4    : (empty)
+2026-03-09 07:27:51,845 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_5    : (empty)
+2026-03-09 07:27:51,845 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_6    : (empty)
+2026-03-09 07:27:51,846 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_7    : (empty)
+2026-03-09 07:27:51,846 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_8    : (empty)
+2026-03-09 07:27:51,846 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_9    : (empty)
+2026-03-09 07:27:51,846 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_10    : (empty)
+2026-03-09 07:27:51,846 - __main__ - INFO - [lifespan:415] --- End Authentication ---
+2026-03-09 07:27:51,846 - __main__ - INFO - [lifespan:422] Output directory: Writable ✓
+2026-03-09 07:27:51,846 - __main__ - INFO - [lifespan:432] Thread pool initialized with 0 workers
+2026-03-09 07:27:51,846 - __main__ - INFO - [lifespan:440] ============================================================
+2026-03-09 07:27:51,846 - __main__ - INFO - [lifespan:441] API Ready. Accepting requests.
+2026-03-09 07:27:51,846 - __main__ - INFO - [lifespan:442] ============================================================
+2026-03-09 07:28:20,439 - __main__ - INFO - [lifespan:447] CustomOCR Pipeline API shutting down...
+2026-03-09 07:28:20,440 - __main__ - INFO - [periodic_job_cleanup:949] Periodic cleanup task cancelled
+2026-03-09 07:28:20,440 - __main__ - INFO - [lifespan:458] Thread pool shut down
+2026-03-09 07:28:20,440 - __main__ - INFO - [lifespan:460] Shutdown complete.
+2026-03-09 07:28:22,239 - __main__ - INFO - [lifespan:384] ============================================================
+2026-03-09 07:28:22,239 - __main__ - INFO - [lifespan:385] CustomOCR Pipeline API v2.5.0 starting...
+2026-03-09 07:28:22,239 - __main__ - INFO - [lifespan:386] ============================================================
+2026-03-09 07:28:22,240 - __main__ - INFO - [lifespan:389] Output Directory   : /home/katonic/workspace/ocr-pipeline-fastapi/output
+2026-03-09 07:28:22,240 - __main__ - INFO - [lifespan:390] Completed Dir      : /home/katonic/workspace/ocr-pipeline-fastapi/output/completed
+2026-03-09 07:28:22,240 - __main__ - INFO - [lifespan:391] Max Upload Size    : 500 MB
+2026-03-09 07:28:22,240 - __main__ - INFO - [lifespan:392] Max Workers        : 2
+2026-03-09 07:28:22,240 - __main__ - INFO - [lifespan:393] Job Retention      : 24 hours
+2026-03-09 07:28:22,240 - __main__ - INFO - [lifespan:394] Allowed Extensions : 23 types
+2026-03-09 07:28:22,240 - __main__ - INFO - [lifespan:397] --- Authentication ---
+2026-03-09 07:28:22,240 - __main__ - INFO - [lifespan:399]   Configured Tokens: 3
+2026-03-09 07:28:22,240 - __main__ - INFO - [lifespan:406]   AUTH_TOKEN_1    : REQUEST_AP****UtVo ✓
+2026-03-09 07:28:22,240 - __main__ - INFO - [lifespan:406]   AUTH_TOKEN_2    : REQUEST_AP****ATE4 ✓
+2026-03-09 07:28:22,240 - __main__ - INFO - [lifespan:406]   AUTH_TOKEN_3    : REQUEST_AP****18gA ✓
+2026-03-09 07:28:22,240 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_4    : (empty)
+2026-03-09 07:28:22,240 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_5    : (empty)
+2026-03-09 07:28:22,240 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_6    : (empty)
+2026-03-09 07:28:22,240 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_7    : (empty)
+2026-03-09 07:28:22,240 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_8    : (empty)
+2026-03-09 07:28:22,240 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_9    : (empty)
+2026-03-09 07:28:22,240 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_10    : (empty)
+2026-03-09 07:28:22,240 - __main__ - INFO - [lifespan:415] --- End Authentication ---
+2026-03-09 07:28:22,240 - __main__ - INFO - [lifespan:422] Output directory: Writable ✓
+2026-03-09 07:28:22,240 - __main__ - INFO - [lifespan:432] Thread pool initialized with 2 workers
+2026-03-09 07:28:22,240 - __main__ - INFO - [lifespan:440] ============================================================
+2026-03-09 07:28:22,241 - __main__ - INFO - [lifespan:441] API Ready. Accepting requests.
+2026-03-09 07:28:22,241 - __main__ - INFO - [lifespan:442] ============================================================
+2026-03-09 07:28:38,491 - __main__ - INFO - [lifespan:447] CustomOCR Pipeline API shutting down...
+2026-03-09 07:28:38,492 - __main__ - INFO - [periodic_job_cleanup:949] Periodic cleanup task cancelled
+2026-03-09 07:28:38,492 - __main__ - INFO - [lifespan:458] Thread pool shut down
+2026-03-09 07:28:38,492 - __main__ - INFO - [lifespan:460] Shutdown complete.
+2026-03-09 07:32:28,435 - __main__ - INFO - [lifespan:384] ============================================================
+2026-03-09 07:32:28,435 - __main__ - INFO - [lifespan:385] CustomOCR Pipeline API v2.5.0 starting...
+2026-03-09 07:32:28,435 - __main__ - INFO - [lifespan:386] ============================================================
+2026-03-09 07:32:28,435 - __main__ - INFO - [lifespan:389] Output Directory   : /home/katonic/workspace/ocr-pipeline-fastapi/output
+2026-03-09 07:32:28,435 - __main__ - INFO - [lifespan:390] Completed Dir      : /home/katonic/workspace/ocr-pipeline-fastapi/output/completed
+2026-03-09 07:32:28,435 - __main__ - INFO - [lifespan:391] Max Upload Size    : 500 MB
+2026-03-09 07:38:30,414 - __main__ - INFO - [lifespan:383] ============================================================
+2026-03-09 07:38:30,414 - __main__ - INFO - [lifespan:384] CustomOCR Pipeline API v2.5.0 starting...
+2026-03-09 07:38:30,414 - __main__ - INFO - [lifespan:385] ============================================================
+2026-03-09 07:38:30,414 - __main__ - INFO - [lifespan:388] Output Directory   : /home/katonic/workspace/ocr-pipeline-fastapi/output
+2026-03-09 07:38:30,414 - __main__ - INFO - [lifespan:389] Completed Dir      : /home/katonic/workspace/ocr-pipeline-fastapi/output/completed
+2026-03-09 07:38:30,414 - __main__ - INFO - [lifespan:390] Max Upload Size    : 500 MB
+2026-03-09 07:38:30,414 - __main__ - INFO - [lifespan:391] Max Workers        : 0
+2026-03-09 07:38:30,414 - __main__ - INFO - [lifespan:392] Job Retention      : 24 hours
+2026-03-09 07:38:30,414 - __main__ - INFO - [lifespan:393] Allowed Extensions : 23 types
+2026-03-09 07:38:30,414 - __main__ - INFO - [lifespan:396] --- Authentication ---
+2026-03-09 07:38:30,414 - __main__ - INFO - [lifespan:398]   Configured Tokens: 3
+2026-03-09 07:38:30,414 - __main__ - INFO - [lifespan:405]   AUTH_TOKEN_1    : REQUEST_AP****UtVo ✓
+2026-03-09 07:38:30,414 - __main__ - INFO - [lifespan:405]   AUTH_TOKEN_2    : REQUEST_AP****ATE4 ✓
+2026-03-09 07:38:30,414 - __main__ - INFO - [lifespan:405]   AUTH_TOKEN_3    : REQUEST_AP****18gA ✓
+2026-03-09 07:38:30,414 - __main__ - INFO - [lifespan:407]   AUTH_TOKEN_4    : (empty)
+2026-03-09 07:38:30,414 - __main__ - INFO - [lifespan:407]   AUTH_TOKEN_5    : (empty)
+2026-03-09 07:38:30,414 - __main__ - INFO - [lifespan:407]   AUTH_TOKEN_6    : (empty)
+2026-03-09 07:38:30,414 - __main__ - INFO - [lifespan:407]   AUTH_TOKEN_7    : (empty)
+2026-03-09 07:38:30,414 - __main__ - INFO - [lifespan:407]   AUTH_TOKEN_8    : (empty)
+2026-03-09 07:38:30,414 - __main__ - INFO - [lifespan:407]   AUTH_TOKEN_9    : (empty)
+2026-03-09 07:38:30,414 - __main__ - INFO - [lifespan:407]   AUTH_TOKEN_10    : (empty)
+2026-03-09 07:38:30,415 - __main__ - INFO - [lifespan:414] --- End Authentication ---
+2026-03-09 07:38:30,415 - __main__ - INFO - [lifespan:421] Output directory: Writable ✓
+2026-03-09 07:38:30,415 - __main__ - INFO - [lifespan:431] Auto-detected worker count: 16
+2026-03-09 07:38:30,415 - __main__ - INFO - [lifespan:433] Thread pool initialized with 16 workers
+2026-03-09 07:38:30,415 - __main__ - INFO - [lifespan:441] ============================================================
+2026-03-09 07:38:30,415 - __main__ - INFO - [lifespan:442] API Ready. Accepting requests.
+2026-03-09 07:38:30,415 - __main__ - INFO - [lifespan:443] ============================================================
+2026-03-09 07:38:53,688 - __main__ - INFO - [lifespan:448] CustomOCR Pipeline API shutting down...
+2026-03-09 07:38:53,689 - __main__ - INFO - [periodic_job_cleanup:950] Periodic cleanup task cancelled
+2026-03-09 07:38:53,689 - __main__ - INFO - [lifespan:459] Thread pool shut down
+2026-03-09 07:38:53,689 - __main__ - INFO - [lifespan:461] Shutdown complete.
+2026-03-09 07:41:39,599 - __main__ - INFO - [lifespan:384] ============================================================
+2026-03-09 07:41:39,599 - __main__ - INFO - [lifespan:385] CustomOCR Pipeline API v2.5.0 starting...
+2026-03-09 07:41:39,599 - __main__ - INFO - [lifespan:386] ============================================================
+2026-03-09 07:41:39,599 - __main__ - INFO - [lifespan:389] Output Directory   : /home/katonic/workspace/ocr-pipeline-fastapi/output
+2026-03-09 07:41:39,599 - __main__ - INFO - [lifespan:390] Completed Dir      : /home/katonic/workspace/ocr-pipeline-fastapi/output/completed
+2026-03-09 07:41:39,599 - __main__ - INFO - [lifespan:391] Max Upload Size    : 500 MB
+2026-03-09 07:41:39,599 - __main__ - INFO - [lifespan:392] Max Workers        : 0
+2026-03-09 07:41:39,599 - __main__ - INFO - [lifespan:393] Job Retention      : 24 hours
+2026-03-09 07:41:39,599 - __main__ - INFO - [lifespan:394] Allowed Extensions : 23 types
+2026-03-09 07:41:39,599 - __main__ - INFO - [lifespan:397] --- Authentication ---
+2026-03-09 07:41:39,599 - __main__ - INFO - [lifespan:399]   Configured Tokens: 3
+2026-03-09 07:41:39,599 - __main__ - INFO - [lifespan:406]   AUTH_TOKEN_1    : REQUEST_AP****UtVo ✓
+2026-03-09 07:41:39,599 - __main__ - INFO - [lifespan:406]   AUTH_TOKEN_2    : REQUEST_AP****ATE4 ✓
+2026-03-09 07:41:39,600 - __main__ - INFO - [lifespan:406]   AUTH_TOKEN_3    : REQUEST_AP****18gA ✓
+2026-03-09 07:41:39,600 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_4    : (empty)
+2026-03-09 07:41:39,600 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_5    : (empty)
+2026-03-09 07:41:39,600 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_6    : (empty)
+2026-03-09 07:41:39,600 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_7    : (empty)
+2026-03-09 07:41:39,600 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_8    : (empty)
+2026-03-09 07:41:39,600 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_9    : (empty)
+2026-03-09 07:41:39,600 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_10    : (empty)
+2026-03-09 07:41:39,600 - __main__ - INFO - [lifespan:415] --- End Authentication ---
+2026-03-09 07:41:39,600 - __main__ - INFO - [lifespan:422] Output directory: Writable ✓
+2026-03-09 07:41:52,752 - __main__ - INFO - [lifespan:384] ============================================================
+2026-03-09 07:41:52,752 - __main__ - INFO - [lifespan:385] CustomOCR Pipeline API v2.5.0 starting...
+2026-03-09 07:41:52,752 - __main__ - INFO - [lifespan:386] ============================================================
+2026-03-09 07:41:52,752 - __main__ - INFO - [lifespan:389] Output Directory   : /home/katonic/workspace/ocr-pipeline-fastapi/output
+2026-03-09 07:41:52,752 - __main__ - INFO - [lifespan:390] Completed Dir      : /home/katonic/workspace/ocr-pipeline-fastapi/output/completed
+2026-03-09 07:41:52,753 - __main__ - INFO - [lifespan:391] Max Upload Size    : 500 MB
+2026-03-09 07:41:52,753 - __main__ - INFO - [lifespan:392] Max Workers        : 2
+2026-03-09 07:41:52,753 - __main__ - INFO - [lifespan:393] Job Retention      : 24 hours
+2026-03-09 07:41:52,753 - __main__ - INFO - [lifespan:394] Allowed Extensions : 23 types
+2026-03-09 07:41:52,753 - __main__ - INFO - [lifespan:397] --- Authentication ---
+2026-03-09 07:41:52,753 - __main__ - INFO - [lifespan:399]   Configured Tokens: 3
+2026-03-09 07:41:52,753 - __main__ - INFO - [lifespan:406]   AUTH_TOKEN_1    : REQUEST_AP****UtVo ✓
+2026-03-09 07:41:52,753 - __main__ - INFO - [lifespan:406]   AUTH_TOKEN_2    : REQUEST_AP****ATE4 ✓
+2026-03-09 07:41:52,753 - __main__ - INFO - [lifespan:406]   AUTH_TOKEN_3    : REQUEST_AP****18gA ✓
+2026-03-09 07:41:52,753 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_4    : (empty)
+2026-03-09 07:41:52,753 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_5    : (empty)
+2026-03-09 07:41:52,753 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_6    : (empty)
+2026-03-09 07:41:52,753 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_7    : (empty)
+2026-03-09 07:41:52,753 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_8    : (empty)
+2026-03-09 07:41:52,753 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_9    : (empty)
+2026-03-09 07:41:52,753 - __main__ - INFO - [lifespan:408]   AUTH_TOKEN_10    : (empty)
+2026-03-09 07:41:52,753 - __main__ - INFO - [lifespan:415] --- End Authentication ---
+2026-03-09 07:41:52,753 - __main__ - INFO - [lifespan:422] Output directory: Writable ✓
+2026-03-09 07:41:52,753 - __main__ - INFO - [lifespan:429] Thread pool initialized with 2 workers
+2026-03-09 07:41:52,753 - __main__ - INFO - [lifespan:437] ============================================================
+2026-03-09 07:41:52,753 - __main__ - INFO - [lifespan:438] API Ready. Accepting requests.
+2026-03-09 07:41:52,754 - __main__ - INFO - [lifespan:439] ============================================================
+2026-03-09 07:42:34,679 - __main__ - INFO - [lifespan:444] CustomOCR Pipeline API shutting down...
+2026-03-09 07:42:34,679 - __main__ - INFO - [periodic_job_cleanup:946] Periodic cleanup task cancelled
+2026-03-09 07:42:34,680 - __main__ - INFO - [lifespan:455] Thread pool shut down
+2026-03-09 07:42:34,680 - __main__ - INFO - [lifespan:457] Shutdown complete.
+2026-03-09 08:07:47,637 - __main__ - INFO - [lifespan:383] ============================================================
+2026-03-09 08:07:47,637 - __main__ - INFO - [lifespan:384] CustomOCR Pipeline API v2.5.0 starting...
+2026-03-09 08:07:47,637 - __main__ - INFO - [lifespan:385] ============================================================
+2026-03-09 08:07:47,637 - __main__ - INFO - [lifespan:388] Output Directory   : /home/katonic/workspace/ocr-pipeline-fastapi/output
+2026-03-09 08:07:47,637 - __main__ - INFO - [lifespan:389] Completed Dir      : /home/katonic/workspace/ocr-pipeline-fastapi/output/completed
+2026-03-09 08:07:47,637 - __main__ - INFO - [lifespan:390] Max Upload Size    : 500 MB
+2026-03-09 08:07:47,637 - __main__ - INFO - [lifespan:391] Max Workers        : 0
+2026-03-09 08:07:47,637 - __main__ - INFO - [lifespan:392] Job Retention      : 24 hours
+2026-03-09 08:07:47,637 - __main__ - INFO - [lifespan:393] Allowed Extensions : 23 types
+2026-03-09 08:07:47,637 - __main__ - INFO - [lifespan:396] --- Authentication ---
+2026-03-09 08:07:47,637 - __main__ - INFO - [lifespan:398]   Configured Tokens: 3
+2026-03-09 08:07:47,637 - __main__ - INFO - [lifespan:405]   AUTH_TOKEN_1    : REQUEST_AP****UtVo ✓
+2026-03-09 08:07:47,637 - __main__ - INFO - [lifespan:405]   AUTH_TOKEN_2    : REQUEST_AP****ATE4 ✓
+2026-03-09 08:07:47,637 - __main__ - INFO - [lifespan:405]   AUTH_TOKEN_3    : REQUEST_AP****18gA ✓
+2026-03-09 08:07:47,638 - __main__ - INFO - [lifespan:407]   AUTH_TOKEN_4    : (empty)
+2026-03-09 08:07:47,638 - __main__ - INFO - [lifespan:407]   AUTH_TOKEN_5    : (empty)
+2026-03-09 08:07:47,638 - __main__ - INFO - [lifespan:407]   AUTH_TOKEN_6    : (empty)
+2026-03-09 08:07:47,638 - __main__ - INFO - [lifespan:407]   AUTH_TOKEN_7    : (empty)
+2026-03-09 08:07:47,638 - __main__ - INFO - [lifespan:407]   AUTH_TOKEN_8    : (empty)
+2026-03-09 08:07:47,638 - __main__ - INFO - [lifespan:407]   AUTH_TOKEN_9    : (empty)
+2026-03-09 08:07:47,638 - __main__ - INFO - [lifespan:407]   AUTH_TOKEN_10    : (empty)
+2026-03-09 08:07:47,638 - __main__ - INFO - [lifespan:414] --- End Authentication ---
+2026-03-09 08:07:47,638 - __main__ - INFO - [lifespan:421] Output directory: Writable ✓
+2026-03-09 08:07:48,546 - matplotlib.font_manager - INFO - [_load_fontmanager:1639] generated new fontManager
+2026-03-09 08:07:57,899 - pikepdf._core - INFO - [<module>:13] pikepdf C++ to Python logger bridge initialized
+2026-03-09 08:07:57,923 - __main__ - INFO - [_load_pipeline_modules:287] All pipeline modules loaded successfully
+2026-03-09 08:07:57,923 - __main__ - INFO - [lifespan:434] Auto-detected worker count: 8
+2026-03-09 08:07:57,924 - __main__ - INFO - [lifespan:437] Thread pool initialized with 8 workers
+2026-03-09 08:07:57,924 - __main__ - INFO - [lifespan:445] ============================================================
+2026-03-09 08:07:57,924 - __main__ - INFO - [lifespan:446] API Ready. Accepting requests.
+2026-03-09 08:07:57,924 - __main__ - INFO - [lifespan:447] ============================================================
+2026-03-09 09:24:31,877 - __main__ - INFO - [lifespan:452] CustomOCR Pipeline API shutting down...
+2026-03-09 09:24:31,877 - __main__ - INFO - [periodic_job_cleanup:954] Periodic cleanup task cancelled
+2026-03-09 09:24:31,877 - __main__ - INFO - [lifespan:463] Thread pool shut down
+2026-03-09 09:24:31,877 - __main__ - INFO - [lifespan:465] Shutdown complete.
+2026-03-09 09:24:34,435 - __main__ - INFO - [lifespan:383] ============================================================
+2026-03-09 09:24:34,435 - __main__ - INFO - [lifespan:384] CustomOCR Pipeline API v2.5.0 starting...
+2026-03-09 09:24:34,435 - __main__ - INFO - [lifespan:385] ============================================================
+2026-03-09 09:24:34,435 - __main__ - INFO - [lifespan:388] Output Directory   : /home/katonic/workspace/ocr-pipeline-fastapi/output
+2026-03-09 09:24:34,435 - __main__ - INFO - [lifespan:389] Completed Dir      : /home/katonic/workspace/ocr-pipeline-fastapi/output/completed
+2026-03-09 09:24:34,435 - __main__ - INFO - [lifespan:390] Max Upload Size    : 500 MB
+2026-03-09 09:24:34,435 - __main__ - INFO - [lifespan:391] Max Workers        : 0
+2026-03-09 09:24:34,435 - __main__ - INFO - [lifespan:392] Job Retention      : 24 hours
+2026-03-09 09:24:34,435 - __main__ - INFO - [lifespan:393] Allowed Extensions : 23 types
+2026-03-09 09:24:34,435 - __main__ - INFO - [lifespan:396] --- Authentication ---
+2026-03-09 09:24:34,435 - __main__ - INFO - [lifespan:398]   Configured Tokens: 3
+2026-03-09 09:24:34,435 - __main__ - INFO - [lifespan:405]   AUTH_TOKEN_1    : REQUEST_AP****UtVo ✓
+2026-03-09 09:24:34,435 - __main__ - INFO - [lifespan:405]   AUTH_TOKEN_2    : REQUEST_AP****ATE4 ✓
+2026-03-09 09:24:34,435 - __main__ - INFO - [lifespan:405]   AUTH_TOKEN_3    : REQUEST_AP****18gA ✓
+2026-03-09 09:24:34,435 - __main__ - INFO - [lifespan:407]   AUTH_TOKEN_4    : (empty)
+2026-03-09 09:24:34,436 - __main__ - INFO - [lifespan:407]   AUTH_TOKEN_5    : (empty)
+2026-03-09 09:24:34,436 - __main__ - INFO - [lifespan:407]   AUTH_TOKEN_6    : (empty)
+2026-03-09 09:24:34,436 - __main__ - INFO - [lifespan:407]   AUTH_TOKEN_7    : (empty)
+2026-03-09 09:24:34,436 - __main__ - INFO - [lifespan:407]   AUTH_TOKEN_8    : (empty)
+2026-03-09 09:24:34,436 - __main__ - INFO - [lifespan:407]   AUTH_TOKEN_9    : (empty)
+2026-03-09 09:24:34,436 - __main__ - INFO - [lifespan:407]   AUTH_TOKEN_10    : (empty)
+2026-03-09 09:24:34,436 - __main__ - INFO - [lifespan:414] --- End Authentication ---
+2026-03-09 09:24:34,436 - __main__ - INFO - [lifespan:421] Output directory: Writable ✓
+2026-03-09 09:24:42,746 - pikepdf._core - INFO - [<module>:13] pikepdf C++ to Python logger bridge initialized
+2026-03-09 09:24:42,769 - __main__ - INFO - [_load_pipeline_modules:287] All pipeline modules loaded successfully
+2026-03-09 09:24:42,769 - __main__ - INFO - [lifespan:442] RAM-capacity workers: 18
+2026-03-09 09:24:42,769 - __main__ - INFO - [lifespan:443] Auto-detected worker count (CPU capped): 8
+2026-03-09 09:24:42,769 - __main__ - INFO - [lifespan:446] Thread pool initialized with 8 workers
+2026-03-09 09:24:42,769 - __main__ - INFO - [lifespan:454] ============================================================
+2026-03-09 09:24:42,769 - __main__ - INFO - [lifespan:455] API Ready. Accepting requests.
+2026-03-09 09:24:42,769 - __main__ - INFO - [lifespan:456] ============================================================
+2026-03-09 09:25:12,160 - __main__ - INFO - [lifespan:461] CustomOCR Pipeline API shutting down...
+2026-03-09 09:25:12,161 - __main__ - INFO - [periodic_job_cleanup:964] Periodic cleanup task cancelled
+2026-03-09 09:25:12,161 - __main__ - INFO - [lifespan:472] Thread pool shut down
+2026-03-09 09:25:12,161 - __main__ - INFO - [lifespan:474] Shutdown complete.
