@@ -177,7 +177,7 @@ def _setup():
 # RUN SETUP BEFORE ANY IMPORTS
 # =============================================
 _setup()
-
+os.environ.setdefault("PADDLEX_HOME", "/home/katonic/.paddlex")
 # =============================================
 # CLEAR LRU CACHES
 # =============================================
